@@ -8,13 +8,13 @@ let botStartTime = new Date();
 
 pnix(
   {
-    pattern: "menu",
+    pattern: "zr",
     fromMe: isPrivate,
     type: "main",
     desc: "Show All commands",
   },
   async (message, match, m) => {
-  message.client.sendMessage(message.jid, { react: { text: "📃", key: m.key } });
+  message.client.sendMessage(message.jid, { react: { text: "🇮🇳", key: m.key } });
     if (match) {
       for (let i of events.commands) {
         if (i.pattern.test(message.prefix + match))
@@ -31,8 +31,8 @@ Description : ${i.desc}\`\`\``
       let currentTime = new Date();
       let runtime = clockString(currentTime - botStartTime);
 
-      let menu = `╭───❮ *${BOT_NAME}* ❯
-│ *ᴏᴡɴᴇʀ* :  ${OWNER_NAME}
+      let menu = `╭───❮ _*`ZR-MD`*_ ❯
+│ *ᴏᴡɴᴇʀ* :  _*`LuciZR`*_
 │ *ᴘʀᴇғɪx* : ${prefix}
 │ *ᴘʟᴀᴛғᴏʀᴍ* : ${hostname().split("-")[0]}
 │ *ᴘʟᴜɢɪɴs* : ${events.commands.length} 
@@ -73,10 +73,10 @@ Description : ${i.desc}\`\`\``
 
       menu += ``;
       return await message.client.sendMessage(message.jid, {
-        image: { url: `https://i.ibb.co/tHWJrz3/IMG-20231128-WA0005.jpg` },
+        image: { url: `https://telegra.ph/file/f55b8cb1e5e7e4669bd50.jpg` },
         caption: tiny(menu),
         footer: tiny(
-          `Phoenix-MD\nVersion : ${require("../package.json").version}`
+          `ZR-MD\nVersion : ${require("../package.json").version}`
         ),
       });
     }

@@ -1,18 +1,18 @@
 {
-  "name": "Phoenix-MD",
+  "name": "ZR-MD",
   "description": "A Simple WhatsApp Bot",
   "version": "1.8.0",
   "main": "index.js",
   "type": "commonjs",
   "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1",
-      "start": "pm2 start . --attach --name Phoenix-MD"
+      "start": "pm2 start . --attach --name ZR-MD"
   },
   "keywords": [
    "termux",
    "whatsapp",
    "MD",
-   "Phoenix-MD",
+   "ZR-MD",
    "WhatsApp-MD",
    "baileys-md",
    "wa-bot",
@@ -21,7 +21,7 @@
    "terumx-bot",
    "multi-device"
   ],
-  "author": "Abhishek Suresh",
+  "author": "LuciZR",
   "license": "Apache-2.0",
   "dependencies": {
    "@whiskeysockets/baileys": "^6.7.2",
@@ -93,10 +93,10 @@
  },
  "repository": {
   "type": "git",
-  "url": "git+https://github.com/AbhishekSuresh2/Phoenix-MD.git"
+  "url": "git+https://github.com/LuciZR/ZR-MD.git"
  },
  "bugs": {
-  "url": "https://github.com/AbhishekSuresh2/Phoenix-MD/issues"
+  "url": "https://github.com/LuciZR/ZR-MD/issues"
  },
- "homepage": "https://github.com/AbhishekSuresh2/Phoenix-MD#readme"
+ "homepage": "https://github.com/LuciZR/ZR-MD#readme"
 }

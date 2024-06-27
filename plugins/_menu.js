@@ -31,8 +31,8 @@ Description : ${i.desc}\`\`\``
       let currentTime = new Date();
       let runtime = clockString(currentTime - botStartTime);
 
-      let menu = `╭───❮ _*`ZR-MD`*_ ❯
-│ *ᴏᴡɴᴇʀ* :  _*`LuciZR`*_
+      let menu = `╭───❮ _*ZR-MD*_ ❯
+│ *ᴏᴡɴᴇʀ* :  _*LuciZR*_
 │ *ᴘʀᴇғɪx* : ${prefix}
 │ *ᴘʟᴀᴛғᴏʀᴍ* : ${hostname().split("-")[0]}
 │ *ᴘʟᴜɢɪɴs* : ${events.commands.length} 

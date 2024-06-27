@@ -1,8 +1,8 @@
 FROM node:lts-buster
 
-RUN git clone https://github.com/LuciZR/ZR-MD /root/ZR-MD
+RUN git clone https://github.com/LuciZR/ZR-MD /root/Phoenix-MD
 
-WORKDIR /root/ZR-MD
+WORKDIR /root/Phoenix-MD
 
 RUN apt-get update && \
   apt-get install -y \

@@ -1,1 +1,1 @@
-zr: npm start
+Phoenix: npm start
